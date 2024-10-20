@@ -40,7 +40,7 @@ const Navbar = ({ handleNavClick, running_state }) => {
               handleClick={handleClick}
             /> 
           </div>
-          <a href="http://localhost:3000" className="webname flex flex-row space-x-2 text-4xl font-serif pr-6 px-2 pt-2">
+          <a href="https://mst-visualizer-opal.vercel.app/" className="webname flex flex-row space-x-2 text-4xl font-serif pr-6 px-2 pt-2">
             <img src="/fav.png" alt="logo" className="mr-2 size-10"></img>
             MST Visualizer
           </a>
