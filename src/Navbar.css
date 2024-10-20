@@ -1,0 +1,90 @@
+.overall{
+  background-color: #a0e8f1;
+}
+
+.head{
+  background-color: #a0e8f1;
+}
+
+.webname{
+  background-color: #a0e8f1;
+}
+
+.algos{
+  height: 5vh;
+  padding-right: 60vw;
+}
+
+.navbar-container {
+  height: 80px;
+  width: 100vw;
+  background-color: #a0e8f1;
+  display: flex;
+  align-items: center;
+}
+
+.button-default {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: grey;
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  margin: 10px;
+  font-family: monospace;
+  font-size: 1rem;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  user-select: none;
+}
+
+.button-pushed {
+  cursor:pointer ;
+  color: #eaecee;
+  background-color: rgb(0, 0, 0);
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  margin: 10px;
+  font-family: monospace;
+  font-size: 1rem;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  user-select: none;
+}
+
+.header-style {
+  height: 30px;
+  margin-left: 100px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  font-size: 1rem;
+  text-align: center;
+  overflow: hidden;
+  user-select: none;
+}
+
+.directions-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+  font-size: 1rem;
+  background-color: #e0eab6;
+  color: #483d8b;
+  height: 30px;
+  width: 100vw;
+}
+
+h3 {
+  user-select: none;
+}
+  

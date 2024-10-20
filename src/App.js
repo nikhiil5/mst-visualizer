@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import Navbar from './Navbar';
+import Graph from './components/Graph';
 
-function App() {
+const App = () => {
+  const [displayGraph, setDisplayGraph] = useState(false);
+  const [pressed, setPressed] = useState("");
+  const [runningState, setRunningState] = useState("");
+
+  const updateRunningState = (newState) => {
+    setRunningState(newState);
+  };
+
+  const handleNavClick = (button) => {
+    setDisplayGraph(true);
+    setPressed(button);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <header className="App-header"></header>
+      <div>
+        <Navbar handleNavClick={handleNavClick} running_state={runningState} />
+        <Graph
+          display_graph={displayGraph}
+          algo_type={pressed}
+          update_running_state={updateRunningState}
+        />
+      </div>
     </div>
   );
-}
+};
 
 export default App;

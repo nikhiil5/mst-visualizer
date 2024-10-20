@@ -1,0 +1,42 @@
+.edge {
+  width: 10px;
+  background-color: #a9a9a9;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 8px;
+}
+
+.preview {
+  background-color: #eeeeee;
+}
+
+.se {
+  background-color: #47d147;
+}
+
+.pe {
+  background-color: #ffa64d;
+}
+
+.ue {
+  background-color: #cfcfcf;
+}
+
+.edge_container {
+  position: absolute;
+  z-index: 1;
+}
+
+.edge_input {
+  color: #000000;
+  border: 1px solid black;
+  background-color: #ffffff;
+  padding: 3px;
+  border-radius: 3px;
+  width: 15px;
+  user-select: none;
+}
+  
