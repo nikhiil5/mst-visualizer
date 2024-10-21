@@ -7,6 +7,7 @@
 }
 
 .webname{
+
   background-color: #a0e8f1;
 }
 
@@ -17,7 +18,7 @@
 
 .navbar-container {
   height: 80px;
-  width: 100vw;
+  width: 100%;
   background-color: #a0e8f1;
   display: flex;
   align-items: center;
@@ -57,6 +58,287 @@
   justify-content: center;
   text-align: center;
   user-select: none;
+}
+
+@media only screen and (min-device-width: 225px) and (max-device-width: 379px){
+  .notm{
+    display: none;
+  }
+  .mob{
+    margin-left: 2vw;
+  }
+  .btn{
+    width: 25vw;
+  }
+  .bttn{
+    height: 9vh;
+  }
+  .menu{
+    width: 30vw;
+  }
+  .webname{
+    left: 5vw;
+  }
+  .choice{
+    font-size:x-small ;
+  }
+  .noinfo{
+    display: none;
+  }
+  .button-default {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: grey;
+    height: 26px;
+    width: 25vw;
+    border-radius: 10px;
+    margin: 10px;
+    font-family: monospace;
+    font-size: 0.6rem;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    user-select: none;
+  }
+  
+  .button-pushed {
+    cursor:pointer ;
+    color: #eaecee;
+    background-color: rgb(0, 0, 0);
+    height: 26px;
+    width: 25vw;
+    border-radius: 10px;
+    margin: 10px;
+    font-family: monospace;
+    font-size: 0.6rem;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    user-select: none;
+  }
+}
+
+@media only screen and (min-device-width: 380px) and (max-device-width: 639px) { 
+  .notm{
+    display: none;
+  }
+  .noinfo{
+    display: none;
+  }
+  .mob{
+    margin-left: 4vw;
+  }
+
+  .button-default {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: grey;
+    height: 28px;
+    width: 110px;
+    border-radius: 10px;
+    margin: 10px;
+    font-family: monospace;
+    font-size: 0.6rem;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    user-select: none;
+  }
+  
+  .button-pushed {
+    cursor:pointer ;
+    color: #eaecee;
+    background-color: rgb(0, 0, 0);
+    height: 28px;
+    width: 110px;
+    border-radius: 10px;
+    margin: 10px;
+    font-family: monospace;
+    font-size: 0.6rem;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    user-select: none;
+  }
+}
+
+@media only screen and (min-width: 640px){
+  
+  .mob{
+    display: none;
+  }
+  .slct{
+    font-size: 0.6rem;
+    
+  }
+  .noinfo{
+    display: none;
+  }
+  .button-default {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: grey;
+    height: 28px;
+    width: 110px;
+    border-radius: 10px;
+    margin: 10px;
+    font-family: monospace;
+    font-size: 0.6rem;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    user-select: none;
+  }
+  
+  .button-pushed {
+    cursor:pointer ;
+    color: #eaecee;
+    background-color: rgb(0, 0, 0);
+    height: 28px;
+    width: 110px;
+    border-radius: 10px;
+    margin: 10px;
+    font-family: monospace;
+    font-size: 0.6rem;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    user-select: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .mob{
+    display: none;
+  }
+  .slct{
+    font-size: 0.6rem;
+  }
+  .noinfo{
+    display: none;
+  }
+
+  .button-default {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: grey;
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 10px;
+    font-family: monospace;
+    font-size: 0.75rem;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    user-select: none;
+  }
+  
+  .button-pushed {
+    cursor:pointer ;
+    color: #eaecee;
+    background-color: rgb(0, 0, 0);
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 10px;
+    font-family: monospace;
+    font-size: 0.75rem;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    user-select: none;
+  }
+  
+}
+
+.infoicon{
+  padding-left: 80vw;
+}
+
+@media only screen and (min-width: 768px) and (max-device-width: 1350px) {
+  .directions-container {
+    padding-left: 42vw;
+    font-family: monospace;
+    font-size: 1rem;
+    background-color: #e0eab6;
+    color: #483d8b;
+    height: 30px;
+    width: 100vw;
+  }
+}
+
+@media only screen and (min-width: 1024px){
+  .mob{
+    display: none;
+  }
+  
+  .slct{
+    font-size: medium;
+  }
+
+  .button-default {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: grey;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px;
+    font-family: monospace;
+    font-size: 1rem;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    user-select: none;
+  }
+  
+  .button-pushed {
+    cursor:pointer ;
+    color: #eaecee;
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px;
+    font-family: monospace;
+    font-size: 1rem;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    user-select: none;
+  }
+  .directions-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 1rem;
+    background-color: #e0eab6;
+    color: #483d8b;
+    height: 30px;
+    width: 100vw;
+  }
 }
 
 .header-style {

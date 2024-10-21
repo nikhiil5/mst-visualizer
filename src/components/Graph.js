@@ -347,7 +347,7 @@ class Graph extends React.Component {
           onClick={this.allow_editing.bind(this)}
         >
           <div
-            className="absolute h-6 w-24 border border-black rounded flex items-center justify-center text-center cursor-pointer -top-7 left-12 delete_button"
+            className="absolute min-[225px]:h-4 min-[225px]:w-18 min-[225px]:mt-1 min-[225px]:left-2 min-[225px]:-top-7 sm:h-6 sm:w-24 md:h-6 md:w-24 lg:h-6 lg:w-24 border border-black rounded flex items-center justify-center text-center cursor-pointer sm:-top-8 md:-top-8 lg:-top-8 sm:left-12 md:left-12 lg:left-12 delete_button"
             style={{
               background:"#808080",
               visibility:
@@ -358,12 +358,12 @@ class Graph extends React.Component {
             }}
             onClick={this.deleteElement.bind(this)}
           >
-            <h4 className="text-sm text-white">
+            <h4 className="min-[225px]:text-xs md:text-sm lg:text-sm text-white">
                Delete {this.state.selected_node_idx!==-1?"Node":this.state.selected_edge_idx!==-1?"Edge":""} 
             </h4>
           </div>
           <div
-            className="absolute h-6 w-48 bg-gray-600 border border-black rounded flex items-center justify-center text-center cursor-pointer -top-7 left-52"
+            className="absolute min-[225px]:h-4 min-[225px]:w-32  sm:h-6 sm:w-48 md:h-6 md:w-48 lg:h-6 lg:w-48 bg-gray-600 border border-black rounded flex items-center justify-center text-center cursor-pointer -top-6 sm:-top-7 md:-top-7 lg:-top-7 min-[225px]:left-20 sm:left-52 md:left-40 lg:left-52"
             style={{
               background:"#808080",
               visibility:
@@ -375,7 +375,7 @@ class Graph extends React.Component {
             }}
             onClick={this.runAlgo.bind(this)}
           >
-            <h4 className="text-sm text-white" >Run {this.props.algo_type} Algorithm</h4>
+            <h4 className="min-[225px]:text-xs md:text-sm lg:text-sm text-white" >Run {this.props.algo_type} Algorithm</h4>
           </div>
           <div
             className="flex h-[calc(100vh-100px)] w-full bg-neutral-50"
