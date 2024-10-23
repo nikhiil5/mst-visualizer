@@ -363,7 +363,7 @@ class Graph extends React.Component {
             </h4>
           </div>
           <div
-            className="absolute min-[225px]:h-4 min-[225px]:w-32  sm:h-6 sm:w-48 md:h-6 md:w-48 lg:h-6 lg:w-48 bg-gray-600 border border-black rounded flex items-center justify-center text-center cursor-pointer -top-6 sm:-top-7 md:-top-7 lg:-top-7 min-[225px]:left-20 sm:left-52 md:left-40 lg:left-52"
+            className="absolute min-[225px]:h-4 min-[225px]:w-36  sm:h-6 sm:w-48 md:h-6 md:w-48 lg:h-6 lg:w-48 bg-gray-600 border border-black rounded flex items-center justify-center text-center cursor-pointer -top-6 sm:-top-7 md:-top-7 lg:-top-7 min-[225px]:left-20 sm:left-52 md:left-40 lg:left-52"
             style={{
               background:"#808080",
               visibility:
